@@ -1,0 +1,352 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+    <link href="{{ url_for('static', filename='css/timeline.css') }}" rel="stylesheet">
+
+{% endblock %}
+
+{% block page_content %}
+
+    <!-- PageTitle -->
+    <section class="page-title">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="heading">本体详情</h3>
+          </div>
+          <div class="col-md-6">
+            <ul class="breadcrumb">
+              <li><a href="{{ url_for('main.index') }}">主页</a></li>
+              <li><p class="fs-18">/</p></li>
+              <li><p class="fs-18">本体详情</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End PageTitle -->
+
+    <section class="blog-details">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-md-12">
+            <div class="blog-main">
+              <h3 class="title">
+               {{ ontology.name }}
+              </h3>
+
+              <div class="meta">
+                <a href="#" class="category btn-action">{{ moderator }}</a>
+
+                <div class="meta-info">
+                  <a href="#" class="name"><span></span>{{ ontology.owner }}</a>
+                  <a href="#" class="time">{{ ontology.lastTime }}</a>
+                </div>
+              </div>
+              <div class="content">
+                <h5>简介</h5>
+                <p>
+                  {{ ontology.intro }}
+                </p>
+
+              </div>
+
+              <div class="details-bottom">
+                <div class="tags">
+                  <h6>Tags:</h6>
+                  <ul>
+                    <li><a href="blog-grid-v1.html">Metaverse</a></li>
+                    <li><a href="blog-grid-v1.html">NFT Marketplace</a></li>
+                    <li><a href="blog-grid-v1.html">Virtual Land</a></li>
+                  </ul>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-12">
+            <div class="sidebar">
+              <div class="widget recent mt-0">
+                <h6 class="heading">你可能感兴趣的</h6>
+
+                <ul>
+                  <li>
+                    <div class="image">
+                      <img src="assets/images/blog/blog-01.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                      <a href="#" class="category">LEARN & EARN</a>
+                      <a href="" class="title"
+                        >Learn about UI8 coin and earn an All-Access Pass</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image">
+                      <img src="assets/images/blog/blog-01.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                      <a href="#" class="category">LEARN & EARN</a>
+                      <a href="" class="title"
+                        >Learn about UI8 coin and earn an All-Access Pass</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image">
+                      <img src="assets/images/blog/blog-01.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                      <a href="#" class="category">LEARN & EARN</a>
+                      <a href="" class="title"
+                        >Learn about UI8 coin and earn an All-Access Pass</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="widget tags">
+                <h6 class="heading">Popular tags</h6>
+
+                <ul>
+                  <li><a href="blog-grid-v1.html">Crypto</a></li>
+                  <li><a href="blog-grid-v1.html">Virtual Land</a></li>
+                  <li><a href="blog-grid-v1.html">Metaverse</a></li>
+                  <li><a href="blog-grid-v1.html">NFT Marketplace</a></li>
+                  <li><a href="blog-grid-v1.html">Token</a></li>
+                  <li><a href="blog-grid-v1.html">NFTs</a></li>
+                  <li><a href="blog-grid-v1.html">Bitcoin</a></li>
+                  <li><a href="blog-grid-v1.html">Arts</a></li>
+                  <li><a href="blog-grid-v1.html">Wallet</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="container">
+        <header>
+
+
+
+
+            {% if (current_user and current_user.username == owner) or  (moderator != "等待认领中" and moderator != "无") %}
+                <button style="display: inline; margin: auto 0" type="button" class="btn btn-primary"
+                        onclick="window.location.href='{{ url_for('modify.index', name=name, moderator=moderator) }}'">
+                    更新
+                </button>
+            {% endif %}
+
+            <HR width="100%"
+                color=#987cb9 SIZE=1>
+
+        </header>
+
+        <div class="ratio ratio-16x9">
+            <iframe id="ifr"
+                    src="{{ url_for('webOWL.blockOWL', filename=filename, target_id=1, owner=owner, ontology_id=ontology_id ) }}"></iframe>
+        </div>
+        <div class="container"></div>
+        <div class="right">
+<p style="display: inline">手机用户点击全屏获得更佳体验</p>
+            <img src="{{ url_for('static', filename='fullscreen.png') }}"
+                                style="width: 40px; height: 40px; margin: 10px 0px 10px auto; display: inline;"
+                                onclick="window.location.href='{{ url_for('webOWL.full_screen', filename=filename, target_id=target, owner=owner, ontology_id=ontology_id) }}' ">
+
+        </div>
+
+        <span class="vertical-timeline-element-icon bounce-in">
+        <span class="badge badge-dot badge-dot-xl badge-success">ds</span>
+    </span>
+        <HR width="100%"
+            color=#987cb9 SIZE=1>
+
+
+        <div class="row d-flex justify-content-center mt-70 mb-70">
+
+            <div class="col-md-12">
+
+                <div class="main-card mb-3 card">
+                    <div class="card-body">
+                        <h5 class="card-title">历史记录</h5>
+                        <div class="vertical-timeline vertical-timeline--animate vertical-timeline--one-column">
+                            <div class="vertical-timeline-item vertical-timeline-element">
+                                <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <span class="badge badge-dot badge-dot-xl bg-success"> </span>
+                                                        </span>
+                                    <div class="vertical-timeline-element-content bounce-in">
+                                        <h4 class="timeline-title">Meeting with client</h4>
+                                        <p>Meeting with USA Client, today at <a href="javascript:void(0);"
+                                                                                data-abc="true">12:00
+                                            PM</a></p>
+                                        <span class="vertical-timeline-element-date">9:30 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vertical-timeline-item vertical-timeline-element">
+                                <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <i class="badge badge-dot badge-dot-xl bg-warning"> </i>
+                                                        </span>
+                                    <div class="vertical-timeline-element-content bounce-in">
+                                        <p>Another meeting with UK client today, at <b class="text-danger">3:00 PM</b>
+                                        </p>
+                                        <p>Yet another one, at <span class="text-success">5:00 PM</span></p>
+                                        <span class="vertical-timeline-element-date">12:25 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vertical-timeline-item vertical-timeline-element">
+                                <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <i class="badge badge-dot badge-dot-xl bg-danger"> </i>
+                                                        </span>
+                                    <div class="vertical-timeline-element-content bounce-in">
+                                        <h4 class="timeline-title">Discussion with team about new product launch</h4>
+                                        <p>meeting with team mates about the launch of new product. and tell them about
+                                            new
+                                            features</p>
+                                        <span class="vertical-timeline-element-date">6:00 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vertical-timeline-item vertical-timeline-element">
+                                <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <i class="badge badge-dot badge-dot-xl bg-primary"> </i>
+                                                        </span>
+                                    <div class="vertical-timeline-element-content bounce-in">
+                                        <h4 class="timeline-title text-success">Discussion with marketing team</h4>
+                                        <p>Discussion with marketing team about the popularity of last product</p>
+                                        <span class="vertical-timeline-element-date">9:00 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vertical-timeline-item vertical-timeline-element">
+                                <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <i class="badge badge-dot badge-dot-xl bg-success"> </i>
+                                                        </span>
+                                    <div class="vertical-timeline-element-content bounce-in">
+                                        <h4 class="timeline-title">Purchase new hosting plan</h4>
+                                        <p>Purchase new hosting plan as discussed with development team, today at <a
+                                                href="javascript:void(0);" data-abc="true">10:00 AM</a></p>
+                                        <span class="vertical-timeline-element-date">10:30 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vertical-timeline-item vertical-timeline-element">
+                                <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <i class="badge badge-dot badge-dot-xl bg-warning"> </i>
+                                                        </span>
+                                    <div class="vertical-timeline-element-content bounce-in">
+                                        <p>Another conference call today, at <b class="text-danger">11:00 AM</b></p>
+                                        <p>Yet another one, at <span class="text-success">1:00 PM</span></p>
+                                        <span class="vertical-timeline-element-date">12:25 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="vertical-timeline-item vertical-timeline-element">
+                                <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <i class="badge badge-dot badge-dot-xl bg-warning"> </i>
+                                                        </span>
+                                    <div class="vertical-timeline-element-content bounce-in">
+                                        <p>Another meeting with UK client today, at <b class="text-danger">3:00 PM</b>
+                                        </p>
+                                        <p>Yet another one, at <span class="text-success">5:00 PM</span></p>
+                                        <span class="vertical-timeline-element-date">12:25 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vertical-timeline-item vertical-timeline-element">
+                                <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <i class="badge badge-dot badge-dot-xl bg-danger"> </i>
+                                                        </span>
+                                    <div class="vertical-timeline-element-content bounce-in">
+                                        <h4 class="timeline-title">Discussion with team about new product launch</h4>
+                                        <p>meeting with team mates about the launch of new product. and tell them about
+                                            new
+                                            features</p>
+                                        <span class="vertical-timeline-element-date">6:00 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vertical-timeline-item vertical-timeline-element">
+                                <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <i class="badge badge-dot badge-dot-xl bg-primary"> </i>
+                                                        </span>
+                                    <div class="vertical-timeline-element-content bounce-in">
+                                        <h4 class="timeline-title text-success">Discussion with marketing team</h4>
+                                        <p>Discussion with marketing team about the popularity of last product</p>
+                                        <span class="vertical-timeline-element-date">9:00 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vertical-timeline-item vertical-timeline-element">
+                                <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <i class="badge badge-dot badge-dot-xl bg-success"> </i>
+                                                        </span>
+                                    <div class="vertical-timeline-element-content bounce-in">
+                                        <h4 class="timeline-title">Purchase new hosting plan</h4>
+                                        <p>Purchase new hosting plan as discussed with development team, today at <a
+                                                href="javascript:void(0);" data-abc="true">10:00 AM</a></p>
+                                        <span class="vertical-timeline-element-date">10:30 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vertical-timeline-item vertical-timeline-element">
+                                <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <i class="badge badge-dot badge-dot-xl bg-warning"> </i>
+                                                        </span>
+                                    <div class="vertical-timeline-element-content bounce-in">
+                                        <p>Another conference call today, at <b class="text-danger">11:00 AM</b></p>
+                                        <p>Yet another one, at <span class="text-success">1:00 PM</span></p>
+                                        <span class="vertical-timeline-element-date">12:25 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        //绑定一次滚轮事件
+        window.addEventListener('scroll', target, false);
+
+        function target() {
+            document.getElementById('ifr').contentWindow.document.getElementById('mybtn').click();
+            window.removeEventListener('scroll', target, false);
+        }
+
+        //移动端
+        window.addEventListener('touchend', target1, false);
+
+        function target1() {
+            document.getElementById('ifr').contentWindow.document.getElementById('mybtn').click();
+            window.removeEventListener('touchend', target1, false);
+        }
+
+    </script>
+{% endblock %}

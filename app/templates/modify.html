@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="css/listcard.css") }}"/>
+{% endblock %}
+
+{% block page_content %}
+
+    <div class="container">
+        <div class="container">
+            <form action="/modify" method="post" enctype="multipart/form-data">
+                <input style="display: none" value="{{ refer }}" name="refer">
+                <div class="mb-5">
+                    <label for="exampleInputEmail1" class="form-label mb-3"><h1>{{ name }}</h1></label>
+                    <br>
+                    <label for="exampleInputEmail1" class="form-label mb-3">审核员:<i>{{ moderator }}</i></label>
+                </div>
+
+                <div class="mb-5">
+                    <label class="form-label mb-3">上传本体</label>
+                    <div class="input-group mb-3">
+                        <input type="file" class="form-control" name="update_file">
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <h2>或</h2>
+                </div>
+                <div class="mb-5">
+                    <a href="{{ url_for('main.index') }}" target="opentype">在线更新</a>
+                </div>
+
+                <div class="mb-5">
+                    <label class="form-label mb-3">更新类型</label>
+                    <select class="form-select" aria-label="Default select example" name="update_type">
+                        <option selected>选择类型</option>
+                        <option value="1">修改</option>
+                        <option value="2">增加</option>
+                        <option value="3">删除</option>
+                    </select>
+                </div>
+
+
+                <div class="mb-5">
+                    <label class="form-label">更新信息</label>
+                    <textarea class="form-control" name="info" rows="6" placeholder="请具体说明更改该内容"></textarea>
+                </div>
+
+                <input type="text" name="values"
+                       value="{&quot;name&quot;:&quot;{{ name }}&quot;, &quot;moderator&quot;:&quot;{{ moderator }}&quot;}"
+                       style="display: none">
+
+                <button type="submit" class="btn btn-primary">提交</button>
+            </form>
+
+        </div>
+    </div>
+{% endblock %}

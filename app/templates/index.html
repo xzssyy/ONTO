@@ -1,0 +1,626 @@
+{% extends "base.html" %}
+
+{% block title %}Flasky{% endblock %}
+
+{% block page_content %}
+
+    <!-- Banner Top -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-12">
+                    <div class="banner__content">
+                        <h2 class="title">
+                            <p style="margin-top: 40px">制作</p>
+                            <p style="margin-top: 10px">&emsp;&emsp;编辑</p>
+                            <p style="margin-top: 10px">&emsp;&emsp;&emsp;&emsp;共享</p>
+                        </h2>
+                        <p class="fs-20 desc">
+                            在 ONTO 本体众包平台上开启你的学习之旅
+                        </p>
+                        <p class="fs-20 desc">
+                            Start your learning journey on the ONTO crowdsourcing platform
+                        </p>
+                        <a href="#" class="btn-action"><span>试试看吧</span></a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12">
+                    <div class="banner__image">
+                        <img src="{{ url_for('static',filename='banner.jpg') }}"
+                             alt="https://www.logsign.com/blog/what-is-cyber-security-ontology/" ,
+                             title="https://www.logsign.com/blog/what-is-cyber-security-ontology/"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Top -->
+
+    <section class="crypto" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div><h6>你可能错过的</h6></div>
+                    <div class="crypto__main">
+
+                        {% if current_user.is_authenticated %}
+                            {% for box in boxes %}
+                                <div class="crypto-box">
+                                    <div class="left">
+                                        <img src="{{ url_for('static', filename='back.png') }}" style="width: 60px">
+                                        <h6>今日访问用户数: {{ box['Recommend'].today_view_count }}</h6>
+                                        <a href="{{ url_for('webOWL.ontology', ontology_id=box['Recommend'].ontology_id) }}" class="price">{{ box['Recommend'].ontology_name }}</a>
+                                    </div>
+
+                                    <script> var chart_data_{{ loop.index }} = {{ box['Recommend'].seven_days_view }}</script>
+
+
+                                    <div class="right">
+                                        <div id="total-revenue-chart-{{ loop.index }}"></div>
+                                        <p class="unit"></p>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        {% else %}
+                            {% for box in boxes %}
+                                <div class="crypto-box">
+                                    <div class="left">
+                                        <img src="{{ url_for('static', filename='back.png') }}" style="width: 60px">
+                                        <h6>今日访问用户数: {{ box.today_view_count }}</h6>
+                                        <a href="{{ url_for('webOWL.ontology', ontology_id=box.ontology_id) }}" class="price">{{ box.ontology_name }}</a>
+                                    </div>
+
+                                    <script> var chart_data_{{ loop.index }} = {{ box.seven_days_view }}</script>
+
+                                    <div class="right">
+                                        <div id="total-revenue-chart-{{ loop.index }}"></div>
+                                        <p class="unit"></p>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+
+                        {% set length_1 = boxes | length %}
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <section class="coin-list" style="padding-top: 100px">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block-text">
+                        <h3 class="heading">热门本体</h3>
+                        <a class="btn-action-2" href="#">探索所有热门本体</a>
+                    </div>
+
+                    <div class="coin-list__main">
+                        <div class="flat-tabs">
+                            <ul class="menu-tab">
+                                <li class="active"><h6 class="fs-16">全部</h6></li>
+                                <li><h6 class="fs-16">你关注的</h6></li>
+                                <li><h6 class="fs-16">你参与的</h6></li>
+                            </ul>
+                            <div class="content-tab">
+                                <div class="content-inner">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">#</th>
+                                            <th scope="col">名称</th>
+                                            <th scope="col">关注数</th>
+                                            <th scope="col">贡献条数</th>
+                                            <th scope="col">最新更新时间</th>
+                                            <th scope="col">7天访问量</th>
+                                            <th scope="col"></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        {% for list in rank_lists['all'] %}
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>{{ loop.index }}</td>
+                                                <td>
+                                                    <a href="{{ url_for('webOWL.ontology', ontology_id=list.ontology_id) }}"
+                                                    ><img src="{{ url_for('static', filename='back.png') }}"
+                                                          style="width: 30px; margin-right: 10px">
+                                                        <span>{{ list.ontology_name }}</span>
+                                                    </a>
+                                                </td>
+                                                <td class="boild">{{ list.subscribe_nums }}</td>
+                                                <td class="up">{{ list.edit_nums }}</td>
+                                                <td class="boild">{{ list.view_count }}</td>
+                                                <td>
+                                                    <script> var chart_data_{{ loop.index + length_1 }} = {{ list.seven_days_view }}</script>
+                                                    <div id="total-revenue-chart-{{ loop.index+length_1 }}"></div>
+                                                </td>
+                                                <td>
+                                                     {% if current_user.is_authenticated %}
+                                                    <button  class="btn"
+                                                            onclick="subscribe({{ current_user.id }}, {{ list.ontology_id }})">
+                                                        关注
+                                                    </button>
+                                                    {% else %}
+                                                     <button onclick="window.location.href='{{ url_for('auth.login') }}'" class="btn">
+                                                        关注
+                                                    </button>
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+
+                                        {% set length_2 = length_1 + rank_lists['all'] | length %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="content-inner"
+                                        {% if not current_user.is_authenticated %}
+                                     style="text-align: center"
+                                {% endif %}
+                                >
+                                    {% if current_user.is_authenticated %}
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">#</th>
+                                                <th scope="col">名称</th>
+                                                <th scope="col">关注数</th>
+                                                <th scope="col">贡献条数</th>
+                                                <th scope="col">最新更新时间</th>
+                                                <th scope="col">7天访问量</th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% for list in rank_lists['subscribe'] %}
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>{{ loop.index }}</td>
+                                                    <td>
+                                                        <a href="{{ url_for('webOWL.ontology', ontology_id=list['Recommend'].ontology_id) }}"><img
+                                                                src="{{ url_for('static', filename='back.png') }}"
+                                                                style="width: 30px; margin-right: 10px">
+                                                            <span>{{ list['Recommend'].ontology_name }}</span>
+                                                        </a>
+                                                    </td>
+                                                    <td class="boild">{{ list['Recommend'].subscribe_nums }}</td>
+                                                    <td class="up">{{ list['Recommend'].edit_nums }}</td>
+                                                    <td class="boild">{{ list['Recommend'].view_count }}</td>
+                                                    <td>
+                                                         <script> var chart_data_{{ loop.index + length_2 }} = {{ list['Recommend'].seven_days_view }}</script>
+                                                        <div id="total-revenue-chart-{{ loop.index+length_2 }}"></div>
+                                                    </td>
+                                                    {#                                                <td>#}
+                                                    {#                                                    <button href="#" class="btn"#}
+                                                    {#                                                            onclick="subscribe({{ current_user.id }}, {{ recommend['Recommend'].ontology_id }})">#}
+                                                    {#                                                        关注#}
+                                                    {#                                                    </button>#}
+                                                    {#                                                </td>#}
+                                                </tr>
+                                            {% endfor %}
+
+                                            {% set length_3 = length_2+ rank_lists['subscribe'] | length %}
+                                            </tbody>
+                                        </table>
+                                    {% else %}
+                                        <button onclick="window.location.href='{{ url_for('auth.login') }}'" class="my_btn">登录以查看更多</button>
+                                    {% endif %}
+                                </div>
+                                 <div class="content-inner"
+                                        {% if not current_user.is_authenticated %}
+                                     style="text-align: center; "
+                                {% endif %}
+                                >
+                                    {% if current_user.is_authenticated %}
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">#</th>
+                                                <th scope="col">名称</th>
+                                                <th scope="col">关注数</th>
+                                                <th scope="col">贡献条数</th>
+                                                <th scope="col">最新更新时间</th>
+                                                <th scope="col">7天访问量</th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% for list in rank_lists['contribute'] %}
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>{{ loop.index }}</td>
+                                                    <td>
+                                                        <a href="{{ url_for('webOWL.ontology', ontology_id=list['Recommend'].ontology_id) }}"
+                                                        ><img src="{{ url_for('static', filename='back.png') }}"
+                                                              style="width: 30px; margin-right: 10px">
+                                                            <span>{{ list['Recommend'].ontology_name }}</span>
+                                                        </a>
+                                                    </td>
+                                                    <td class="boild">{{ list['Recommend'].subscribe_nums }}</td>
+                                                    <td class="up">{{ list['Recommend'].edit_nums }}</td>
+                                                    <td class="boild">{{ list['Recommend'].view_count }}</td>
+                                                    <td>
+                                                         <script> var chart_data_{{ loop.index + length_3 }} = {{ list['Recommend'].seven_days_view }}</script>
+                                                        <div id="total-revenue-chart-{{ loop.index+length_3 }}"></div>
+                                                    </td>
+                                                    {#                                                <td>#}
+                                                    {#                                                    <button href="#" class="btn"#}
+                                                    {#                                                            onclick="subscribe({{ current_user.id }}, {{ recommend['Recommend'].ontology_id }})">#}
+                                                    {#                                                        关注#}
+                                                    {#                                                    </button>#}
+                                                    {#                                                </td>#}
+                                                </tr>
+                                            {% endfor %}
+
+                                            {% set length_4 = length_3+ rank_lists['contribute'] | length %}
+                                            </tbody>
+                                        </table>
+                                    {% else %}
+                                        <button onclick="window.location.href='{{ url_for('auth.login') }}'" class="my_btn">登录以查看更多</button>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" style="margin-bottom: 80px">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-12">
+                    <div class="services__main">
+                        <div class="services-box">
+                            <div class="icon">
+                                <svg
+                                        width="37"
+                                        height="38"
+                                        viewBox="0 0 37 38"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M35.9606 13.88C34.7889 6.66876 28.6638 1.30399 21.361 1.0928C21.0138 1.07919 20.6754 1.2042 20.4205 1.44029C20.1655 1.67637 20.0149 2.00415 20.0018 2.35138V2.35138V2.46885L20.824 14.7694C20.878 15.5974 21.5898 16.2269 22.4182 16.179L34.7523 15.3567C35.0999 15.331 35.4228 15.1678 35.6496 14.9032C35.8764 14.6386 35.9883 14.2945 35.9606 13.9471V13.88Z"
+                                            stroke="#D33535"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                    />
+                                    <path
+                                            d="M12.8195 8.40957C13.6041 8.22809 14.407 8.62953 14.7325 9.36609C14.8178 9.53933 14.8691 9.72732 14.8835 9.91987C15.0514 12.3028 15.4038 17.5217 15.6051 20.3409C15.6395 20.8488 15.8749 21.322 16.2591 21.6558C16.6433 21.9896 17.1448 22.1566 17.6524 22.1197V22.1197L28.0064 21.482C28.4686 21.4542 28.9218 21.6187 29.2586 21.9365C29.5954 22.2542 29.786 22.6971 29.7851 23.1601V23.1601C29.3656 29.4125 24.8735 34.6394 18.7553 35.9942C12.6371 37.3491 6.3582 34.5074 3.33816 29.0167C2.43662 27.4365 1.86569 25.6894 1.66005 23.8817C1.57214 23.3269 1.53842 22.7649 1.55937 22.2036C1.57718 15.5266 6.26646 9.7735 12.8027 8.40957"
+                                            stroke="#D33535"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <a href="" class="h6 title">参与知识建构</a>
+                            <p>
+                                利用 <b>WebVOWL</b> 查看在线本体,下载本体，编辑，上传，参与知识构建
+                            </p>
+                        </div>
+                        <div class="services-box">
+                            <div class="icon">
+                                <svg
+                                        width="31"
+                                        height="36"
+                                        viewBox="0 0 31 36"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                            d="M23.6095 13.3208V9.3846C23.6095 4.77743 19.8732 1.0411 15.266 1.0411C10.6589 1.02093 6.90786 4.73893 6.8877 9.34793V9.3846V13.3208"
+                                            stroke="#58BD7D"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                    />
+                                    <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M22.2525 34.9576H8.24399C4.40499 34.9576 1.29199 31.8464 1.29199 28.0056V20.1424C1.29199 16.3016 4.40499 13.1904 8.24399 13.1904H22.2525C26.0915 13.1904 29.2045 16.3016 29.2045 20.1424V28.0056C29.2045 31.8464 26.0915 34.9576 22.2525 34.9576Z"
+                                            stroke="#58BD7D"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                    />
+                                    <path
+                                            d="M15.2486 22.0381V26.1099"
+                                            stroke="#58BD7D"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <a href="" class="h6 title">还没想好</a>
+                            <p>
+                                还没想好<br>
+                                还没想好<br>
+                                还没想好
+                            </p>
+                        </div>
+                        <div class="services-box">
+                            <div class="icon">
+                                <svg
+                                        width="45"
+                                        height="44"
+                                        viewBox="0 0 45 44"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                            d="M26.5332 3.66699H22.1332C21.5253 3.66699 21.0332 4.15907 21.0332 4.76699C21.0332 5.37491 21.5253 5.86699 22.1332 5.86699H26.5332C27.1411 5.86699 27.6332 5.37491 27.6332 4.76699C27.6332 4.15907 27.1411 3.66699 26.5332 3.66699Z"
+                                            fill="#3772FF"
+                                    />
+                                    <path
+                                            d="M31.3001 0H13.7001C11.2743 0 9.30011 1.97416 9.30011 4.4V39.6C9.30011 42.0258 11.2743 44 13.7001 44H31.3001C33.726 44 35.7001 42.0258 35.7001 39.6V4.4C35.7001 1.97416 33.726 0 31.3001 0ZM33.5001 39.6C33.5001 40.8152 32.5153 41.8 31.3001 41.8H13.7001C12.485 41.8 11.5001 40.8152 11.5001 39.6V4.4C11.5001 3.18484 12.485 2.2 13.7001 2.2H31.3001C32.5153 2.2 33.5001 3.18484 33.5001 4.4V39.6Z"
+                                            fill="#3772FF"
+                                    />
+                                    <path
+                                            d="M22.5002 40.3336C23.7152 40.3336 24.7002 39.3486 24.7002 38.1336C24.7002 36.9186 23.7152 35.9336 22.5002 35.9336C21.2851 35.9336 20.3002 36.9186 20.3002 38.1336C20.3002 39.3486 21.2851 40.3336 22.5002 40.3336Z"
+                                            fill="#3772FF"
+                                    />
+                                    <path
+                                            d="M18.4666 5.86699C19.0741 5.86699 19.5666 5.3745 19.5666 4.76699C19.5666 4.15948 19.0741 3.66699 18.4666 3.66699C17.8591 3.66699 17.3666 4.15948 17.3666 4.76699C17.3666 5.3745 17.8591 5.86699 18.4666 5.86699Z"
+                                            fill="#3772FF"
+                                    />
+                                </svg>
+                            </div>
+                            <a href="" class="h6 title">在手机上阅读查看本体</a>
+                            <p>
+                              手机端轻松查看本体
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12">
+                    <div class="block-text" data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="heading">开源本体的众包平台</h3>
+                        <p class="desc">
+                           任何人都能参与编辑，共享知识！
+                        </p>
+                        {% if not current_user.is_authenticated %}
+                        <a onclick="window.location.href='{{ url_for('auth.login') }}'" class="btn-action">加入我们</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block-text center">
+                        <h3 class="heading">如何参与本体众包</h3>
+                        <p class="fs-20 desc">
+                            通过简单的通过四个步骤参与到知识建构中来
+                        </p>
+                    </div>
+
+                    <div class="work__main" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="work-box">
+                            <div class="image">
+                                <img style="width: 150px; height: 150px"
+                                     src="{{ url_for('static', filename='assets/images/icon/download.png') }}" alt=""/>
+                            </div>
+                            <div class="content">
+                                <p class="step">Step 1</p>
+                                <a href="#" class="title">下载</a>
+                                <p class="text">
+                                    在您关注的众包本体中点击下载轻松获得OWL格式源文件
+                                </p>
+                            </div>
+                            <img
+                                    class="line"
+                                    src="assets/images/icon/connect-line.png"
+                                    alt=""
+                            />
+                        </div>
+                        <div class="work-box">
+                            <div class="image">
+                                <img style="width: 150px; height: 150px"
+                                     src="{{ url_for('static', filename='assets/images/icon/edit.png') }}" alt=""/>
+                            </div>
+                            <div class="content">
+                                <p class="step">Step 2</p>
+                                <a href="#" class="title">编辑</a>
+                                <p class="text">
+                                    利用WebProtege等本体编辑平台做出您的更新
+                                </p>
+                            </div>
+                            <img
+                                    class="line"
+                                    src="assets/images/icon/connect-line.png"
+                                    alt=""
+                            />
+                        </div>
+                        <div class="work-box">
+                            <div class="image">
+                                <img style="width: 150px; height: 150px"
+                                     src="{{ url_for('static', filename='assets/images/icon/upload.png') }}" alt=""/>
+                            </div>
+                            <div class="content">
+                                <p class="step">Step 3</p>
+                                <a href="#" class="title">上传</a>
+                                <p class="text">
+                                    上传修改后的本体后审核人将对您的修改进行审核
+                                </p>
+                            </div>
+                            <img
+                                    class="line"
+                                    src="assets/images/icon/connect-line.png"
+                                    alt=""
+                            />
+                        </div>
+                        <div class="work-box">
+                            <div class="image">
+                                <img style="width: 150px; height: 150px"
+                                     src="{{ url_for('static', filename='assets/images/icon/audit.png') }}" alt=""/>
+                            </div>
+                            <div class="content">
+                                <p class="step">Step 4</p>
+                                <a href="#" class="title">审核</a>
+                                <p class="text">
+                                    通过审核后您的修改将会被接受并同步在网站上更新
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block-text center">
+                        <h3 class="heading">学习本体</h3>
+                        <p class="desc">
+                            Stacks is a production-ready library of stackable content blocks
+                            built in React Native.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="blog-box">
+                        <div class="box-image">
+                            <img src="assets/images/blog/blog-01.jpg" alt=""/>
+                            <div class="wrap-video">
+                                <a
+                                        href="https://www.youtube.com/watch?v=i7EMACWuErA"
+                                        class="popup-youtube"
+                                >
+                                    <svg
+                                            width="13"
+                                            height="16"
+                                            viewBox="0 0 13 16"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                                d="M0.466675 2.92407C0.466675 1.35705 2.187 0.398733 3.51938 1.22354L11.7197 6.2999C12.9827 7.0818 12.9827 8.91907 11.7197 9.70096L3.51938 14.7773C2.187 15.6021 0.466675 14.6438 0.466675 13.0768V2.92407Z"
+                                                fill="#777E90"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box-content">
+                            <a href="#" class="category btn-action">learn & earn</a>
+                            <a href="" class="title"
+                            >Learn about UI8 coin and earn an All-Access Pass</a
+                            >
+
+                            <div class="meta">
+                                <a href="#" class="name"><span></span>Floyd Buckridge</a>
+                                <a href="#" class="time">Feb 03, 2021</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-box">
+                        <div class="box-image">
+                            <img src="assets/images/blog/blog-02.jpg" alt=""/>
+                            <div class="wrap-video">
+                                <a
+                                        href="https://www.youtube.com/watch?v=i7EMACWuErA"
+                                        class="popup-youtube"
+                                >
+                                    <svg
+                                            width="13"
+                                            height="16"
+                                            viewBox="0 0 13 16"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                                d="M0.466675 2.92407C0.466675 1.35705 2.187 0.398733 3.51938 1.22354L11.7197 6.2999C12.9827 7.0818 12.9827 8.91907 11.7197 9.70096L3.51938 14.7773C2.187 15.6021 0.466675 14.6438 0.466675 13.0768V2.92407Z"
+                                                fill="#777E90"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box-content">
+                            <a href="#" class="category btn-action">learn & earn</a>
+                            <a href="" class="title"
+                            >Learn about UI8 coin and earn an All-Access Pass</a
+                            >
+
+                            <div class="meta">
+                                <a href="#" class="name"><span></span>Floyd Buckridge</a>
+                                <a href="#" class="time">Feb 03, 2021</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-box">
+                        <div class="box-image">
+                            <img src="assets/images/blog/blog-02.jpg" alt=""/>
+                            <div class="wrap-video">
+                                <a
+                                        href="https://www.youtube.com/watch?v=i7EMACWuErA"
+                                        class="popup-youtube"
+                                >
+                                    <svg
+                                            width="13"
+                                            height="16"
+                                            viewBox="0 0 13 16"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                                d="M0.466675 2.92407C0.466675 1.35705 2.187 0.398733 3.51938 1.22354L11.7197 6.2999C12.9827 7.0818 12.9827 8.91907 11.7197 9.70096L3.51938 14.7773C2.187 15.6021 0.466675 14.6438 0.466675 13.0768V2.92407Z"
+                                                fill="#777E90"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box-content">
+                            <a href="#" class="category btn-action">learn & earn</a>
+                            <a href="" class="title"
+                            >Learn about UI8 coin and earn an All-Access Pass</a
+                            >
+
+                            <div class="meta">
+                                <a href="#" class="name"><span></span>Floyd Buckridge</a>
+                                <a href="#" class="time">Feb 03, 2021</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+{% endblock %}

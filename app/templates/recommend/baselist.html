@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="css/listcard.css") }}"/>
+{% endblock %}
+
+{% block info %}
+    <section class="page-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="heading">探索</h3>
+                </div>
+                <div class="col-md-6">
+                    <ul class="breadcrumb">
+                        <li><a href="{{ url_for('main.index') }}">主页</a></li>
+                        <li><p class="fs-18">/</p></li>
+                        <li><p class="fs-18">探索</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+{% block page_content %}
+    <div class="container">
+    <br><br><br><br><br>
+    <div class="section_our_solution">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="our_solution_category">
+                    <div class="solution_cards_box">
+                        {% for item in col1 %}
+                            <div class="solution_card">
+                                <div class="hover_color_bubble"></div>
+                                <div class="so_top_icon">
+                                    <svg id="Layer_1" enable-background="new 0 0 512 512" height="50"
+                                         viewBox="0 0 512 512"
+                                         width="40" xmlns="http://www.w3.org/2000/svg">
+                                    </svg>
+                                </div>
+                                <div class="solu_title">
+                                    <h3 style="display: inline">{{ item[1] }}</h3>
+{#                                    {% if item[6] != 0 %}#}
+{#                                        <img src="{{ url_for("static", filename='medal.png') }}"#}
+{#                                             style="width: 40px; height:40px; margin-bottom: 10px; margin-left: 10px;">#}
+{#                                    {% endif %}#}
+                                </div>
+                                <div class="solu_description">
+                                    <p>
+                                        {{ item[2] }}
+                                    </p>
+                                    <button type="button" class="read_more_btn"
+                                            onclick="window.location.href='{{ url_for('webOWL.ontology', ontology_id=item[0]) }}'">
+                                        Read More
+                                    </button>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="solution_cards_box sol_card_top_3">
+                        {% for item in col2 %}
+                            <div class="solution_card">
+                                <div class="hover_color_bubble"></div>
+                                <div class="so_top_icon">
+                                    <svg id="Layer_1" enable-background="new 0 0 512 512" height="50"
+                                         viewBox="0 0 512 512"
+                                         width="40" xmlns="http://www.w3.org/2000/svg">
+                                    </svg>
+                                </div>
+                                <div class="solu_title">
+                                    <h3 style="display: inline">{{ item[1] }}</h3>
+{#                                    {% if item[6] != 0 %}#}
+{#                                        <img src="{{ url_for("static", filename='medal.png') }}"#}
+{#                                             style="width: 40px; height:40px; margin-bottom: 10px; margin-left: 10px;">#}
+{#                                    {% endif %}#}
+                                </div>
+                                <div class="solu_description">
+                                    <p>
+                                        {{ item[2] }}
+                                    </p>
+                                    <button type="button" class="read_more_btn"
+                                            onclick="window.location.href='{{ url_for('webOWL.ontology', ontology_id=item[0]) }}'">
+                                        Read More
+                                    </button>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="solution_cards_box sol_card_top_-3">
+                        {% for item in col3 %}
+                            <div class="solution_card">
+                                <div class="hover_color_bubble"></div>
+                                <div class="so_top_icon">
+                                    <svg id="Layer_1" enable-background="new 0 0 512 512" height="50"
+                                         viewBox="0 0 512 512"
+                                         width="40" xmlns="http://www.w3.org/2000/svg">
+                                    </svg>
+                                </div>
+                                <div class="solu_title">
+                                    <h3 style="display: inline">{{ item[1] }}</h3>
+{#                                    {% if item[6] > 0 %}#}
+{#                                        <img src="{{ url_for("static", filename='medal.png') }}"#}
+{#                                             style="width: 40px; height:40px; margin-bottom: 10px; margin-left: 10px;">#}
+{#                                    {% endif %}#}
+                                </div>
+                                <div class="solu_description">
+                                    <p>
+                                        {{ item[2] }}
+                                    </p>
+                                    <button type="button" class="read_more_btn"
+                                            onclick="window.location.href='{{ url_for('webOWL.ontology',ontology_id=item[0]) }}'">
+                                        Read More
+                                    </button>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <!--  -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+{% endblock %}

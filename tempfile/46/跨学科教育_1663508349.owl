@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#"
+     xml:base="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#发展方向 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#发展方向">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科教育"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#取消独立学科 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#取消独立学科">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#广域课程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#基于问题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#基于问题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学科知识整合取向"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#问题为学科知识的交叉点与整合点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#基于项目 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#基于项目">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#生活经验整合取向"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#项目活动过程为整合点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#基本要素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#基本要素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科教育"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学习者中心整合取向 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学习者中心整合取向">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合基本取向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学习者主动建构 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学习者主动建构">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学习者中心整合取向"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学生主导项目"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学生主导项目 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学生主导项目">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学习者中心整合取向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学科知识整合取向 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学科知识整合取向">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合基本取向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#广域课程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#广域课程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合模式"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#相关课程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#教学内容彼此相关 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#教学内容彼此相关">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#相关课程"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#独立学科"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#教学策略 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#教学策略">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科教育"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#独立学科 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#独立学科">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#相关课程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#生活经验整合取向 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#生活经验整合取向">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合基本取向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#由讲授式教学到引导性教学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#由讲授式教学到引导性教学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#发展方向"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合的项目设计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#相关课程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#相关课程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合模式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#科学、技术、工程、数学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#科学、技术、工程、数学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#基本要素"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科交叉融合"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#课程结构化 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#课程结构化">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#广域课程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科交叉融合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科交叉融合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科教育 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科教育"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合基本取向 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合基本取向">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#教学策略"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合模式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合模式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合模式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#教学策略"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合的项目设计 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#跨学科整合的项目设计">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#发展方向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#通过活动整合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#通过活动整合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#广域课程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#问题为学科知识的交叉点与整合点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#问题为学科知识的交叉点与整合点">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学科知识整合取向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#项目活动过程为整合点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#项目活动过程为整合点">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#生活经验整合取向"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#发展方向"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#基本要素"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#教学策略"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#取消独立学科"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#课程结构化"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#通过活动整合"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学习者中心整合取向"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#学科知识整合取向"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-52#生活经验整合取向"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

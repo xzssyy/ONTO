@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}English{% endblock %}
+
+{% block page_content %}
+    <div class="page-header">
+        <h1>请输入单词</h1>
+    </div>
+    {{ wtf.quick_form(form) }}
+    <p>{{ translated }}</p>
+{% endblock %}

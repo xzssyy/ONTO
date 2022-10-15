@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#"
+     xml:base="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#STEM领域的项目式学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#STEM领域的项目式学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#发展方向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#主要特征 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#主要特征">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#定义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#发展方向 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#发展方向">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#项目式学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#基本要素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#基本要素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#定义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#学习成果产出 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#学习成果产出">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#学习目标 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#学习目标">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#定义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#定义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#项目式学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#实现过程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#实现过程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#定义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#小组协作 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#小组协作">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#情景学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#情景学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#理论基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#技术工具支持 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#技术工具支持">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#教学策略 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#教学策略">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#项目式学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#理论基础 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#理论基础">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#项目式学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#社会交互 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#社会交互">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#理论基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#社会建构主义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#社会建构主义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#理论基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#科学实践 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#科学实践">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#认知工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#认知工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#理论基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#项目式学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#项目式学习"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#驱动性问题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#驱动性问题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#主要特征"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#基本要素"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#实现过程"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#发展方向"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#定义"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#教学策略"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#理论基础"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#学习成果产出"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#学习目标"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#小组协作"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#技术工具支持"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#科学实践"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#驱动性问题"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#情景学习"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#社会交互"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#社会建构主义"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-46#认知工具"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
