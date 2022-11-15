@@ -152,26 +152,7 @@ def move_temp_file(ontology_id, filename):
 
 # 通过后更新version版本, 同时更新ontology
 def update_version(modify_instance=None):
-    modify = modify_instance
-    ontology_id = modify.ontology_id
-    version = db.session.query(Version).filter(Version.ontology_id == ontology_id).first()
-
-    # dict
-    # version_list = version.version_list
-    dict_version_list = json.loads(version.version_list)
-    new_id = str(len(dict_version_list))
-
-    if modify.type == 0:
-        json_dict = dict_crowdsource_message(modify)
-    else:
-        json_dict = dict_crowdsource_message(modify)
-
-    dict_version_list[new_id] = json_dict
-    json_text = json.dumps(dict_version_list, ensure_ascii=False)
-    version.version_list = json_text
-
-    db.session.commit()
-
+    pass
 
 
 

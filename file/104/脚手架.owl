@@ -1,0 +1,585 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#"
+     xml:base="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#传授 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#传授">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#使发展 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#使发展">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#培养 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#培养">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#媒介 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#媒介">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#实例 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#实例">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#属性 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#属性">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#影响 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#影响">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#指导 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#指导">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#是 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#是">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#组成 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#组成">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#被影响 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#被影响">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#被指导 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#被指导">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#采用 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#采用">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用层面 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用层面">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#脚手架"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#意义建构"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#管理探究和问题解决"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用方式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用方式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#脚手架"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#促进学习者解释和反思"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#减少挫败感和风险"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#实现情景化的做中学"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#简化任务要素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#管理过程策略"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#聚焦于容易忽视的问题的重要方面"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用机制 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用机制">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#脚手架"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#促进学习者解释和反思 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#促进学习者解释和反思">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用方式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#冗余手脚架 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#冗余手脚架">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#分布式手脚架"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#减少挫败感和风险 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#减少挫败感和风险">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用方式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#分布式手脚架 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#分布式手脚架">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#类型"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#冗余手脚架"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#协同手脚架"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#差异化手脚架"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#类型"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#协同手脚架 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#协同手脚架">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#分布式手脚架"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#发展理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#发展理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#脚手架"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#最近发展区"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#指导"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#脚手架"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#场景 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#场景">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#嵌入学习环境"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#类型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#学习发生在最近发展区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#学习发生在最近发展区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#最近发展区"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#指导者协助学习者达到最近发展区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#学习者模仿示范的行为并把他们与指导建议以及特定任务联系起来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#学习者模仿示范的行为并把他们与指导建议以及特定任务联系起来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#预叙"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#实现情景化的做中学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#实现情景化的做中学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用方式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#嵌入学习环境 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#嵌入学习环境">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#脚手架"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#使发展"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#脚手架"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#类型"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#采用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#场景"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#差异化手脚架 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#差异化手脚架">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#分布式手脚架"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#意义建构 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#意义建构">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用层面"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#管理探究和问题解决"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#指导者协助学习者达到最近发展区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#指导者协助学习者达到最近发展区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#最近发展区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#教与学的交互过程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#教与学的交互过程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#场景"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#最近发展区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#最近发展区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#发展理论"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#学习发生在最近发展区"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#指导者协助学习者达到最近发展区"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#活动和人工制品的结构 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#活动和人工制品的结构">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#场景"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#理解问题或数据 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#理解问题或数据">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#意义建构"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#简化任务要素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#简化任务要素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用方式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#管理探究和问题解决 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#管理探究和问题解决">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用层面"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#管理过程策略 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#管理过程策略">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用方式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#类型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#类型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#嵌入学习环境"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#聚焦于容易忽视的问题的重要方面 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#聚焦于容易忽视的问题的重要方面">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用方式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#脚手架 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#脚手架">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用层面"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用方式"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#采用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用机制"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#计算工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#计算工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#场景"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#选择策略并执行任务 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#选择策略并执行任务">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#管理探究和问题解决"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#预叙 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#预叙">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用机制"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用机制"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用层面"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用方式"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#作用机制"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#发展理论"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#嵌入学习环境"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#促进学习者解释和反思"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#减少挫败感和风险"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#实现情景化的做中学"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#简化任务要素"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#管理过程策略"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#聚焦于容易忽视的问题的重要方面"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#冗余手脚架"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#协同手脚架"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#差异化手脚架"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#教与学的交互过程"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#活动和人工制品的结构"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-68#计算工具"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

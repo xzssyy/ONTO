@@ -105,8 +105,8 @@
                         <div class="flat-tabs">
                             <ul class="menu-tab">
                                 <li class="active"><h6 class="fs-16">全部</h6></li>
-                                <li><h6 class="fs-16">你关注的</h6></li>
-                                <li><h6 class="fs-16">你参与的</h6></li>
+                                <li><h6 class="fs-16">关注</h6></li>
+                                <li><h6 class="fs-16">参与</h6></li>
                             </ul>
                             <div class="content-tab">
                                 <div class="content-inner">
@@ -117,8 +117,8 @@
                                             <th scope="col">#</th>
                                             <th scope="col">名称</th>
                                             <th scope="col">关注数</th>
-                                            <th scope="col">贡献条数</th>
-                                            <th scope="col">最新更新时间</th>
+                                            <th scope="col">贡献数</th>
+                                            <th scope="col">总访问量</th>
                                             <th scope="col">7天访问量</th>
                                             <th scope="col"></th>
                                         </tr>
@@ -136,7 +136,7 @@
                                                     </a>
                                                 </td>
                                                 <td class="boild">{{ list.subscribe_nums }}</td>
-                                                <td class="up">{{ list.edit_nums }}</td>
+                                                <td class="down">{{ list.edit_nums }}</td>
                                                 <td class="boild">{{ list.view_count }}</td>
                                                 <td>
                                                     <script> var chart_data_{{ loop.index + length_1 }} = {{ list.seven_days_view }}</script>
@@ -348,11 +348,9 @@
                                     />
                                 </svg>
                             </div>
-                            <a href="" class="h6 title">还没想好</a>
+                            <a href="" class="h6 title">完整的构建流程</a>
                             <p>
-                                还没想好<br>
-                                还没想好<br>
-                                还没想好
+                               基于开源共享的制作、分享、修改体系
                             </p>
                         </div>
                         <div class="services-box">
@@ -382,9 +380,9 @@
                                     />
                                 </svg>
                             </div>
-                            <a href="" class="h6 title">在手机上阅读查看本体</a>
+                            <a href="" class="h6 title">在手机上阅读本体</a>
                             <p>
-                              手机端轻松查看本体
+                              于移动设备轻松查看本体
                             </p>
                         </div>
                     </div>
@@ -497,8 +495,7 @@
                     <div class="block-text center">
                         <h3 class="heading">学习本体</h3>
                         <p class="desc">
-                            Stacks is a production-ready library of stackable content blocks
-                            built in React Native.
+                            关于本体的学习资料
                         </p>
                     </div>
                 </div>
@@ -506,10 +503,10 @@
                 <div class="col-md-4">
                     <div class="blog-box">
                         <div class="box-image">
-                            <img src="assets/images/blog/blog-01.jpg" alt=""/>
+                            <img src="{{ url_for('static',filename='light-bulb.png') }}" style="width: 100px" alt=""/>
                             <div class="wrap-video">
                                 <a
-                                        href="https://www.youtube.com/watch?v=i7EMACWuErA"
+                                        href="https://www.bilibili.com/video/BV1xK411w7S4/?spm_id_from=333.337.search-card.all.click"
                                         class="popup-youtube"
                                 >
                                     <svg
@@ -529,14 +526,14 @@
                         </div>
 
                         <div class="box-content">
-                            <a href="#" class="category btn-action">learn & earn</a>
+{#                            <a href="#" class="category btn-action">learn & earn</a>#}
                             <a href="" class="title"
-                            >Learn about UI8 coin and earn an All-Access Pass</a
+                            >通过《西游记》人物关系图谱，认识知识图谱本体（Ontology）</a
                             >
 
                             <div class="meta">
-                                <a href="#" class="name"><span></span>Floyd Buckridge</a>
-                                <a href="#" class="time">Feb 03, 2021</a>
+{#                                <a href="#" class="name"><span></span>system</a>#}
+                                <a href="#" class="time">Feb ,5, 2022</a>
                             </div>
                         </div>
                     </div>
@@ -544,10 +541,10 @@
                 <div class="col-md-4">
                     <div class="blog-box">
                         <div class="box-image">
-                            <img src="assets/images/blog/blog-02.jpg" alt=""/>
+                            <img src="{{ url_for('static',filename='light-bulb.png') }}" style="width: 100px" alt=""/>
                             <div class="wrap-video">
                                 <a
-                                        href="https://www.youtube.com/watch?v=i7EMACWuErA"
+                                        href="https://www.bilibili.com/video/BV1jA411x7Dz/?spm_id_from=333.337.search-card.all.click&vd_source=fd82b3916dc0874942b98be8c9fdc9e0"
                                         class="popup-youtube"
                                 >
                                     <svg
@@ -567,14 +564,14 @@
                         </div>
 
                         <div class="box-content">
-                            <a href="#" class="category btn-action">learn & earn</a>
+{#                            <a href="#" class="category btn-action">learn & earn</a>#}
                             <a href="" class="title"
-                            >Learn about UI8 coin and earn an All-Access Pass</a
+                            >数据科学入门概念课-本体论/Ontology</a
                             >
 
                             <div class="meta">
-                                <a href="#" class="name"><span></span>Floyd Buckridge</a>
-                                <a href="#" class="time">Feb 03, 2021</a>
+{#                                <a href="#" class="name"><span></span>Floyd Buckridge</a>#}
+                                <a href="#" class="time">Feb 03, 2022</a>
                             </div>
                         </div>
                     </div>
@@ -582,10 +579,10 @@
                 <div class="col-md-4">
                     <div class="blog-box">
                         <div class="box-image">
-                            <img src="assets/images/blog/blog-02.jpg" alt=""/>
+                            <img src="{{ url_for('static',filename='light-bulb.png') }}" style="width: 100px" alt=""/>
                             <div class="wrap-video">
                                 <a
-                                        href="https://www.youtube.com/watch?v=i7EMACWuErA"
+                                        href="https://www.bilibili.com/video/BV1CK411S7bD/?spm_id_from=333.337.search-card.all.click"
                                         class="popup-youtube"
                                 >
                                     <svg
@@ -605,14 +602,14 @@
                         </div>
 
                         <div class="box-content">
-                            <a href="#" class="category btn-action">learn & earn</a>
+{#                            <a href="#" class="category btn-action">learn & earn</a>#}
                             <a href="" class="title"
-                            >Learn about UI8 coin and earn an All-Access Pass</a
+                            >How to Design your own Ontology</a
                             >
 
                             <div class="meta">
-                                <a href="#" class="name"><span></span>Floyd Buckridge</a>
-                                <a href="#" class="time">Feb 03, 2021</a>
+{#                                <a href="#" class="name"><span></span>Floyd Buckridge</a>#}
+                                <a href="#" class="time">Feb 20, 2022</a>
                             </div>
                         </div>
                     </div>

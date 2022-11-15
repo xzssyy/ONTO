@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/aquanogami/ontologies/2021/11/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/aquanogami/ontologies/2021/11/untitled-ontology-11">
+    <Prefix name="" IRI="http://www.semanticweb.org/aquanogami/ontologies/2021/11/untitled-ontology-11"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#实际控制认知过程"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#元认知体验"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#消极体验"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#条件性知识"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#及时调整认知计划"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#陈述性知识"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#发展属性"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#元认知监控"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#程序性知识"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#元认知"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#认知事件前"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#对思维形式的元认知"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#发生时间"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#元认知属性"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#制定认知计划"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#在认知活动偏离认知目标时采取补救措施"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#元认知控制"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#认知"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#自我协调的学习"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#应用属性"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#认知事件后"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#及时检查认知结果"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#认知事件中"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#积极体验"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#对知识的元认知"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#元认知体验"/>
+        <Class IRI="#元认知"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#元认知控制"/>
+        <Class IRI="#对思维形式的元认知"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#元认知监控"/>
+        <Class IRI="#对思维形式的元认知"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#制定认知计划"/>
+        <Class IRI="#元认知监控"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#及时检查认知结果"/>
+        <Class IRI="#元认知监控"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#及时调整认知计划"/>
+        <Class IRI="#元认知监控"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#发生时间"/>
+        <Class IRI="#元认知"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#在认知活动偏离认知目标时采取补救措施"/>
+        <Class IRI="#元认知监控"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#实际控制认知过程"/>
+        <Class IRI="#元认知监控"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#对思维形式的元认知"/>
+        <Class IRI="#元认知"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#对知识的元认知"/>
+        <Class IRI="#元认知"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#条件性知识"/>
+        <Class IRI="#对知识的元认知"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#消极体验"/>
+        <Class IRI="#元认知体验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#积极体验"/>
+        <Class IRI="#元认知体验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#程序性知识"/>
+        <Class IRI="#对知识的元认知"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#自我协调的学习"/>
+        <Class IRI="#对思维形式的元认知"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#认知事件中"/>
+        <Class IRI="#发生时间"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#认知事件前"/>
+        <Class IRI="#发生时间"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#认知事件后"/>
+        <Class IRI="#发生时间"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#陈述性知识"/>
+        <Class IRI="#对知识的元认知"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#元认知"/>
+        <Class IRI="#元认知体验"/>
+        <Class IRI="#发生时间"/>
+        <Class IRI="#对思维形式的元认知"/>
+        <Class IRI="#对知识的元认知"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#元认知控制"/>
+        <Class IRI="#元认知监控"/>
+        <Class IRI="#自我协调的学习"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#制定认知计划"/>
+        <Class IRI="#及时检查认知结果"/>
+        <Class IRI="#及时调整认知计划"/>
+        <Class IRI="#在认知活动偏离认知目标时采取补救措施"/>
+        <Class IRI="#实际控制认知过程"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#条件性知识"/>
+        <Class IRI="#程序性知识"/>
+        <Class IRI="#陈述性知识"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#消极体验"/>
+        <Class IRI="#积极体验"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#认知事件中"/>
+        <Class IRI="#认知事件前"/>
+        <Class IRI="#认知事件后"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

@@ -14,13 +14,12 @@ from app.modify import modify
 from app.upload.views import convert
 
 
-
 @modify.route('/', methods=['GET', 'POST'])
 @login_required
 def index():
-    name = request.args.get('name')
     moderator = request.args.get('moderator')
     refer = request.referrer
+
 
     if request.method == 'POST':
 
@@ -31,9 +30,8 @@ def index():
         moderator = values['moderator']
         refer = request.form.get('refer')
 
-        #获取更新类型
+        # 获取更新类型
         update_type = request.form.get('update_type')
-
 
         # print(refer)
         ontology_instance = Ontology.query.filter_by(name=name).first()
@@ -52,7 +50,6 @@ def index():
 
         update_file = request.files.get('update_file')
         update_info = request.form.get('info')
-        #print(update_info)
         url = os.path.join(str(current_app.config['UPLOAD_TEMP_FOLDER']), str(ontology_id))
 
         if not os.path.exists(url):
@@ -63,15 +60,14 @@ def index():
         filename = update_file.filename
         filename = filename.replace('.', '_' + timestamp + '.')
 
-
         print(os.path.join(url, filename), 'haha')
 
         # 储存暂时文件
         update_file.save(os.path.join(url, filename))
         convert(filename, os.path.join(url, filename), str(ontology_id), is_temp=True)
 
-
-        modify = Modify(ontology_id=ontology_id, comment=update_info, moderator_id=moderator_id, type=update_type, from_id=from_id,
+        modify = Modify(ontology_id=ontology_id, comment=update_info, moderator_id=moderator_id, type=update_type,
+                        from_id=from_id,
                         filename=filename)
 
         db.session.add(modify)
@@ -87,4 +83,7 @@ def index():
         # print(request.referrer)
         return redirect(refer)
 
-    return render_template('modify.html', name=name, moderator=moderator, refer=refer)
+    ontology_id = request.args.get('ontology_id')
+    ontology_instance = Ontology.query.filter_by(id=ontology_id).first()
+    name = ontology_instance.name
+    return render_template('modify.html', moderator=moderator, name=name, refer=refer)

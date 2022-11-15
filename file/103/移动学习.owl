@@ -1,0 +1,640 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#"
+     xml:base="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#传授 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#传授">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#使发展 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#使发展">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#培养 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#培养">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#媒介 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#媒介">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#实例 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#实例">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#属性 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#属性">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#影响 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#影响">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#指导 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#指导">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#是 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#是">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#组成 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#组成">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#被影响 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#被影响">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#被指导 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#被指导">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#采用 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#采用">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#交互多样化 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#交互多样化">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#特点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#以系统观来考虑认知的分布 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#以系统观来考虑认知的分布">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#分布式认知"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#提高系统的自组织性"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#会话学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#会话学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#理论基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#使用移动终端进行学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#使用移动终端进行学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#依赖于通信技术 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#依赖于通信技术">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#分布式学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#分布式学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#教学策略"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#网络学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#分布式认知 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#分布式认知">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#理论基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#创设、丰富对话环境 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#创设、丰富对话环境">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#会话学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#发展方向 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#发展方向">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#使发展"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习标准化"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习终端的软件开发"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习课程开发"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#在与学习环境的互动中建构意义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#在与学习环境的互动中建构意义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#情景认知学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#基于一定的社会文化环境 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#基于一定的社会文化环境">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#情景认知学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#基本要素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#基本要素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#定义"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#媒介"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#依赖于通信技术"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#采用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#使用移动终端进行学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#采用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#通过移动计算技术实现教学活动交互性"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#特点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#学习便携性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#学习便携性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#特点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#学习活动是多层次的系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#学习活动是多层次的系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#活动理论"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#生成子系统能更好客体转化、分配和谐"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#定义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#定义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#基本要素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#特点"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#情境相关性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#情境相关性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#特点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#情景认知学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#情景认知学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#理论基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#提高系统的自组织性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#提高系统的自组织性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#分布式认知"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#教学策略 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#教学策略">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#采用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#分布式学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#采用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#网络学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#教育个性化 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#教育个性化">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#特点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#活动理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#活动理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#理论基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#灵活基于周遭环境创设学习环境 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#灵活基于周遭环境创设学习环境">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#情景认知学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#特点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#特点">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#定义"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#交互多样化"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#学习便携性"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#情境相关性"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#教育个性化"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#碎片化学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#理论基础 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#理论基础">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#会话学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#分布式认知"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#情景认知学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#活动理论"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#非正式学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#生成子系统能更好客体转化、分配和谐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#生成子系统能更好客体转化、分配和谐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#活动理论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#碎片化学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#碎片化学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#特点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#定义"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#被指导"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#理论基础"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#采用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#教学策略"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习标准化 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习标准化">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#发展方向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习终端的软件开发 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习终端的软件开发">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#发展方向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习课程开发 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习课程开发">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#发展方向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#网络学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#网络学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#教学策略"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#通过交互活动或协作者而获得隐含式信息 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#通过交互活动或协作者而获得隐含式信息">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#非正式学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#通过移动计算技术实现教学活动交互性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#通过移动计算技术实现教学活动交互性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#非正式学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#非正式学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#理论基础"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#交互多样化"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#学习便携性"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#情境相关性"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#教育个性化"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#碎片化学习"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#会话学习"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#分布式认知"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#情景认知学习"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#活动理论"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#非正式学习"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#使用移动终端进行学习"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#依赖于通信技术"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#通过移动计算技术实现教学活动交互性"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#发展方向"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#定义"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#教学策略"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#理论基础"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#在与学习环境的互动中建构意义"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#基于一定的社会文化环境"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#灵活基于周遭环境创设学习环境"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习标准化"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习终端的软件开发"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/8/untitled-ontology-67#移动学习课程开发"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

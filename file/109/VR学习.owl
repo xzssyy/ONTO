@@ -1,0 +1,611 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#"
+     xml:base="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#传授 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#传授">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#使发展 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#使发展">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#培养 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#培养">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#媒介 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#媒介">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#实例 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#实例">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#属性 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#属性">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#影响 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#影响">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#指导 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#指导">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#是 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#是">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#组成 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#组成">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#被影响 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#被影响">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#被指导 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#被指导">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#采用 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#采用">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#VR学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#VR学习">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#基本要素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#被影响"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#发展方向"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#被指导"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#理论基础"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#采用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#教学策略"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#VR技术 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#VR技术">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#主动性与参与性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#主动性与参与性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习者中心"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习者中心"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#直观感受与体验"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#仿真学习活动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#仿真学习活动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#体验式学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#体验式学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#教学策略"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#采用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习者中心"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#体验式学习环境 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#体验式学习环境">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#基本要素"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#促成学习者主动建构知识的意义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#促成学习者主动建构知识的意义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习环境与学习情境"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习环境与学习情境"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#促进能力升级"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#促进能力升级 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#促进能力升级">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习环境与学习情境"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习环境与学习情境"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#具身认知理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#具身认知理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#理论基础"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#身体与环境的交互"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#身体参与认知过程"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#分布式认知理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#分布式认知理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#理论基础"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知活动的环境根植性与分布性"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知活动的系统性"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知过程中个体内部、个体之间以及人工制品的交互作用"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#发展方向 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#发展方向">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#VR学习"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#混合式学习环境开发"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#虚拟世界学习评价"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#设计大规模应用的虚拟世界"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#基本要素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#基本要素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#VR学习"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#VR技术"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#仿真学习活动"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#体验式学习环境"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习环境与学习情境 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习环境与学习情境">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#体验式学习"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#体验式学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习者中心"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习者中心 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习者中心">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#体验式学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#教学策略 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#教学策略">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#VR学习"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#采用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#体验式学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#沉浸状态提升参与感与学习动机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#沉浸状态提升参与感与学习动机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#沉浸理论"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#高挑战与高技能促发沉浸体验"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#沉浸理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#沉浸理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#理论基础"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#沉浸状态提升参与感与学习动机"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#高挑战与高技能促发沉浸体验"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#混合式学习环境开发 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#混合式学习环境开发">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#发展方向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#理论基础 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#理论基础">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#VR学习"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#具身认知理论"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#分布式认知理论"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#沉浸理论"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#指导"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#发展方向"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#指导"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#教学策略"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#直观感受与体验 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#直观感受与体验">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习者中心"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#属性"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#学习者中心"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#虚拟世界学习评价 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#虚拟世界学习评价">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#发展方向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知活动的环境根植性与分布性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知活动的环境根植性与分布性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#分布式认知理论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知活动的系统性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知活动的系统性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#分布式认知理论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知过程中个体内部、个体之间以及人工制品的交互作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知过程中个体内部、个体之间以及人工制品的交互作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#分布式认知理论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#设计大规模应用的虚拟世界 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#设计大规模应用的虚拟世界">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#发展方向"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#身体与环境的交互 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#身体与环境的交互">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#具身认知理论"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#身体参与认知过程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#身体参与认知过程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#身体参与认知过程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#具身认知理论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#高挑战与高技能促发沉浸体验 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#高挑战与高技能促发沉浸体验">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#沉浸理论"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#VR技术"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#仿真学习活动"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#体验式学习环境"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#具身认知理论"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#分布式认知理论"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#沉浸理论"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#发展方向"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#基本要素"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#教学策略"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#理论基础"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#混合式学习环境开发"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#虚拟世界学习评价"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#设计大规模应用的虚拟世界"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知活动的环境根植性与分布性"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知活动的系统性"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-50#认知过程中个体内部、个体之间以及人工制品的交互作用"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

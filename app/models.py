@@ -258,5 +258,5 @@ class Tag(db.Model):
 class OntologyTag(db.Model):
     __tablename__ = 'ontologyTags'
     id = db.Column(db.Integer, primary_key=True)
-    ontology_id = db.Column(db.Integer, primary_key=True)
-    tag_id =  db.Column(db.Integer, primary_key=True)
+    ontology_id = db.Column(db.Integer)
+    tag_id = db.Column(db.Integer)

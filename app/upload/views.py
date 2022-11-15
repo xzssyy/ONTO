@@ -1,14 +1,12 @@
-import json
 import os
 import re
-import datetime
 import time
 
 from flask import render_template, request, current_app
 from flask_login import login_required, current_user
 
 from app import db
-from app.models import Ontology
+from app.models import Ontology, Tag, OntologyTag
 from app.upload import upload
 
 import chardet
@@ -26,12 +24,29 @@ def upload():
         productName = request.form.get('product_name')
         productInfo = request.form.get('product_info')
         productFile = request.files.get('product_file')
+        tags = request.form.get('tags')
 
         ontology = Ontology(name=productName,
                             intro=productInfo,
                             owner=current_user.username,
                             filename=productFile.filename)
+
+        tags_list = []
+        tags = tags.split(',')
+        for t in tags:
+            tag = Tag(title=t)
+            tags_list.append(tag)
+            db.session.add(tag)
+
+
         db.session.add(ontology)
+        db.session.commit()
+
+        ontology_id = ontology.id
+        for t in tags_list:
+            ontologyTag = OntologyTag(ontology_id=ontology_id, tag_id=t.id)
+            db.session.add(ontologyTag)
+
         db.session.commit()
 
         # file/{ontology_id}/
@@ -97,9 +112,5 @@ def change_encoding(ontology_id, filename, is_temp=False):
             fout.write(data)
             fout.close()
 
-    # with open(filename, 'rb') as f:
-    #     data = f.read()
-    #     encoding_type = chardet.detect(data)
-    #     print(encoding_type)
 
 

@@ -1,0 +1,773 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#"
+     xml:base="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#传授 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#传授">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#使发展 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#使发展">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#培养 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#培养">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#媒介 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#媒介">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#实例 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#实例">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#属性 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#属性">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#影响 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#影响">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#指导 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#指导">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#组成 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#组成">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#被影响 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#被影响">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#被指导 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#被指导"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#采用 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#采用">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#CSCL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#CSCL">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#定义"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#被影响"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#发展方向"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#被指导"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#理论基础"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#采用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#教学策略"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主导、主体双重作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主导、主体双重作用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#混合式协作学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主要特征 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主要特征">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#定义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#人、技术与学习的双重整合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#人、技术与学习的双重整合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#混合式协作学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#促进性人机交互 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#促进性人机交互">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主要特征"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主要特征"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#共同活动与交互 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#共同活动与交互">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#实现过程"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#学习小组"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#教学交互"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#社会交互"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#认知交互"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#内容特征 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#内容特征">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#协作学习"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#形式特征"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#分布式认知理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#分布式认知理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#理论基础"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#提高系统的自组织性"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#创设、丰富对话环境 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#创设、丰富对话环境">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#对话理论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#协作学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#协作学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#教学策略"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#内容特征"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#形式特征"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#协作时空分离 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#协作时空分离">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主要特征"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主要特征"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#协同知识建构 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#协同知识建构">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#内容特征"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#内容特征"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#反馈与调节 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#反馈与调节">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#混合式协作学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#发展方向 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#发展方向">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#CSCL"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#混合式协作学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#可进行知识学习的四种结合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#可进行知识学习的四种结合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#混合式协作学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#在小组交互中进行知识建构 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#在小组交互中进行知识建构">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#社会建构主义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基于网络的社交技能 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基于网络的社交技能">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#定义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#学习小组 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#学习小组">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#共同活动与交互"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#定义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#定义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#CSCL"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主要特征"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#实现过程"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#实现过程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#实现过程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#定义"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#共同活动与交互"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#对话理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#对话理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#理论基础"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#创设、丰富对话环境"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#小组加工 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#小组加工">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#小组学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#小组学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#形式特征"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#形式特征"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#帮助达到最近发展区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#帮助达到最近发展区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#脚手架"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#异质学习小组 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#异质学习小组">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#形式特征 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#形式特征">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#协作学习"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#提高系统的自组织性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#提高系统的自组织性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#分布式认知理论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#教学交互 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#教学交互">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#共同活动与交互"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#教学策略 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#教学策略">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#CSCL"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#协作学习"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#混合式协作学习 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#混合式协作学习">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#发展方向"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主导、主体双重作用"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#人、技术与学习的双重整合"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#反馈与调节"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#可进行知识学习的四种结合"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#理论基础 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#理论基础">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#CSCL"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#分布式认知理论"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#对话理论"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#社会建构主义"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#脚手架"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#指导"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#发展方向"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#指导"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#教学策略"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#社会交互 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#社会交互">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#共同活动与交互"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#社会建构主义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#社会建构主义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#理论基础"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#在小组交互中进行知识建构"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#网络平台支持 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#网络平台支持">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#脚手架 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#脚手架">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#理论基础"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#包含"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#帮助达到最近发展区"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#虚拟学习时空 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#虚拟学习时空">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主要特征"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#是"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主要特征"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#认知交互 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#认知交互">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#共同活动与交互"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主导、主体双重作用"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#人、技术与学习的双重整合"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#反馈与调节"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#可进行知识学习的四种结合"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#主要特征"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基本要素"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#实现过程"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#促进性人机交互"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#协作时空分离"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#虚拟学习时空"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#促进性人机交互"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#基于网络的社交技能"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#小组加工"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#异质学习小组"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#网络平台支持"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#分布式认知理论"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#对话理论"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#社会建构主义"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#脚手架"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#发展方向"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#定义"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#教学策略"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#理论基础"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#学习小组"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#教学交互"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#社会交互"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-45#认知交互"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

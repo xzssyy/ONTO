@@ -3,13 +3,13 @@ from sqlalchemy import desc
 
 from app import db
 
-from app.models import Subscribe, Recommend, Contribute
+from app.models import Subscribe, Recommend, Contribute, Ontology
 from app.recommend import recommend
 
 
 @recommend.route('/all', methods=['GET', 'POST'])
 def recommend():
-    ans = db.session.query(Recommend).all()
+    ans = db.session.query(Ontology).all()
     ontologies_1 = to_list(ans, 1)
     ontologies_2 = to_list(ans, 2)
     ontologies_3 = to_list(ans, 3)
@@ -24,7 +24,7 @@ def recommend():
 def to_list(ontologies, col):
     list = []
     size = len(ontologies)
-    begin = int((col-1)*(size/3))
+    begin = int((col-1)*(size+2)/3)
     end = int(begin+(size+2)/3)
     if end > size :
         end = size
@@ -33,9 +33,10 @@ def to_list(ontologies, col):
 
     for ontology in ontologies:
         t_list = []
-        t_list.append(ontology.ontology_id)
-        t_list.append(ontology.ontology_name)
-        t_list.append(ontology.ontology_intro)
+        t_list.append(ontology.id)
+        t_list.append(ontology.name)
+        t_list.append(ontology.intro)
+        t_list.append(ontology.moderator_id)
 
         list.append(t_list)
     return list

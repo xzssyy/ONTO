@@ -12,14 +12,14 @@ class Config:
     MAIL_USE_SSL = True
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
-    FLASKY_MAIL_SUBJECT_PREFIX = '[本体众包平套]'
+    FLASKY_MAIL_SUBJECT_PREFIX = '[本体众包平台]'
     FLASKY_MAIL_SENDER = '2486085516@qq.com'
     FLASKY_ADMIN = os.environ.get('FLASKY_ADMIN')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     UPLOAD_FOLDER = r'C:\Users\panyue\Desktop\platform\file'
     UPLOAD_TEMP_FOLDER = r'C:\Users\panyue\Desktop\platform\tempfile'
-    TOOL_PATH = r'C:\Users\panyue\Desktop\tool\owl2vowl.jar'
+    TOOL_PATH = r'.\tool\owl2vowl.jar'
 
     # 缓存
     CACHE_TYPE = "SimpleCache"
@@ -33,7 +33,7 @@ class Config:
 class DevelopmentConfig(Config):
     DEBUG = True
     SQLALCHEMY_DATABASE_URI = os.environ.get('DEV_DATABASE_URL') or \
-                              'mysql+pymysql://xzssyy:Py20021023@xzssyysql.mysql.database.azure.com:3306/ontoplatform?ssl_ca=DigiCertGlobalRootCA.crt.pem'
+                              'mysql+pymysql://root:py20021023@localhost:3306/ontoplatform'
 
 
 class TestingConfig(Config):

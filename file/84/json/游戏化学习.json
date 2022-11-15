@@ -1,0 +1,886 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#发展方向",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "发展方向"
+    },
+    "subClasses" : [ "2", "3", "4" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#游戏化学习",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "游戏化学习"
+    },
+    "subClasses" : [ "0", "9", "10" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#文化历史理论",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "文化历史理论"
+    },
+    "subClasses" : [ "13", "14" ],
+    "id" : "12",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#最近发展区",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "最近发展区"
+    },
+    "id" : "13",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#社会认知行为主义",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "社会认知行为主义"
+    },
+    "subClasses" : [ "16", "17", "18" ],
+    "id" : "15",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "7",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#理论基础",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "理论基础"
+    },
+    "subClasses" : [ "15", "33", "12" ],
+    "id" : "9",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#观察学习的情境",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "观察学习的情境"
+    },
+    "id" : "16",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#基本要素",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "基本要素"
+    },
+    "subClasses" : [ "37", "38" ],
+    "id" : "10",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#重视交互设计",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "重视交互设计"
+    },
+    "id" : "3",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#试错、强化、模仿",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "试错、强化、模仿"
+    },
+    "id" : "17",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#认知主义",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "认知主义"
+    },
+    "subClasses" : [ "44", "45", "46" ],
+    "id" : "33",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#调动主动性",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "调动主动性"
+    },
+    "id" : "45",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#实践场所",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "实践场所"
+    },
+    "id" : "14",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#激发内部动机",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "激发内部动机"
+    },
+    "id" : "44",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#游戏中知识的转化",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "游戏中知识的转化"
+    },
+    "id" : "46",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#完善评价机制",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "完善评价机制"
+    },
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#使用游戏设计元素",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "使用游戏设计元素"
+    },
+    "id" : "37",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#提升自我效能感",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "提升自我效能感"
+    },
+    "id" : "18",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#充分考虑不同用户的特点",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "充分考虑不同用户的特点"
+    },
+    "id" : "4",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#基于非游戏情境",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "基于非游戏情境"
+    },
+    "id" : "38",
+    "superClasses" : [ "10" ]
+  } ],
+  "property" : [ {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "35",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "36",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "39",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "40",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "41",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "42",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "43",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "48",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "50",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "55",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "56",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "59",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "61",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "62",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "63",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "64",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "65",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "66",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#培养",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "培养"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#实例",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "实例"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "7",
+    "subproperty" : [ "20", "21", "22", "6", "23", "11", "24", "25", "26", "27", "28", "29", "30", "31", "32" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#包含",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "包含"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "0",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#包含",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "包含"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "0",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#属性",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "属性"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "1",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#被指导",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "被指导"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "1",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "38",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#包含",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "包含"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "10",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#包含",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "包含"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "0",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#使发展",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "使发展"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "0",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "43"
+  }, {
+    "range" : "17",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#是",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "是"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#包含",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "包含"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "10",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "49"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "4",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "18",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "2",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "46",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "44",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "46",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#被影响",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "被影响"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#传授",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "传授"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "range" : "15",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#包含",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "包含"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "9",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#属于",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "属于"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#包含",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "包含"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "9",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "60"
+  }, {
+    "range" : "10",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "0",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#包含",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "包含"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "9",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "12",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "12",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "33",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "33",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#媒介",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "媒介"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "range" : "10",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "9",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#影响",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "影响"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "range" : "33",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "10",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#组成",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "组成"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "range" : "9",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "9",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#采用",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "采用"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53#指导",
+    "baseIri" : "http://www.semanticweb.org/aquanogami/ontologies/2022/6/untitled-ontology-53",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "指导"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "range" : "15",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "12",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "12",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "15",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "15",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "0",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "1",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "1",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  } ]
+}

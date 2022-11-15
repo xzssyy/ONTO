@@ -119,7 +119,6 @@ def crowdsources():
 def message_apply_crowdsources(ontology, from_id):
     crowdsources_message = Modify(ontology_id=ontology.id,
                                   time_stamp=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                                  comment=ontology.comment,
                                   moderator_id=ontology.moderator_id,
                                   type=0,  # 申请类型
                                   from_id=from_id,
