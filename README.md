@@ -1,4 +1,4 @@
-A crowdsource playform for participants to view, upload, apply upgrade ontology.  
+A crowdsource platform for participants to view, upload, apply upgrade ontology.  
 
 ## Index
 ![image](https://github.com/xzssyy/ONTO/assets/79258123/786027b1-6149-472e-b3db-883b19bd2f73)
